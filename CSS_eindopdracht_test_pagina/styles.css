@@ -1,0 +1,376 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.Testimonial__footer__img {
+  border-radius: 50%;
+  border: #fff solid 5px;
+  width: 130px;
+  height: 130px;
+  margin-top: -60px;
+  background: #fff;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.Testimonial__footer__img {
+  border-radius: 50%;
+  border: #fff solid 5px;
+  width: 130px;
+  height: 130px;
+  margin-top: -60px;
+  background: #fff;
+}
+
+.testimonial {
+  width: 340px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 4px 2px 4px gray;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+.testimonial___header {
+  height: 300px;
+  box-sizing: border-box;
+  padding: 40px 40px 80px;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+.testimonial__footer {
+  box-sizing: border-box;
+  background: #686de0;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.testimonial__footer h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.testimonial__footer p {
+  margin-top: 10px;
+  opacity: 0.5;
+}
+.testimonial__footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.testimonial__whenhover {
+  background: #0b0b75;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s ease-in-out, opacity 1s ease-in-out;
+}
+.testimonial__whenhover button {
+  height: 30px;
+  font-weight: bold;
+}
+.testimonial .wrap {
+  margin: 0;
+}
+
+.wrap:hover .testimonial__whenhover {
+  visibility: visible;
+  opacity: 1;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.Testimonial__footer__img {
+  border-radius: 50%;
+  border: #fff solid 5px;
+  width: 130px;
+  height: 130px;
+  margin-top: -60px;
+  background: #fff;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.Testimonial__footer__img {
+  border-radius: 50%;
+  border: #fff solid 5px;
+  width: 130px;
+  height: 130px;
+  margin-top: -60px;
+  background: #fff;
+}
+
+.testimonial {
+  width: 340px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 4px 2px 4px gray;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+.testimonial___header {
+  height: 300px;
+  box-sizing: border-box;
+  padding: 40px 40px 80px;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+.testimonial__footer {
+  box-sizing: border-box;
+  background: #686de0;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.testimonial__footer h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.testimonial__footer p {
+  margin-top: 10px;
+  opacity: 0.5;
+}
+.testimonial__footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.testimonial__whenhover {
+  background: #0b0b75;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s ease-in-out, opacity 1s ease-in-out;
+}
+.testimonial__whenhover button {
+  height: 30px;
+  font-weight: bold;
+}
+.testimonial .wrap {
+  margin: 0;
+}
+
+.wrap:hover .testimonial__whenhover {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,49 @@
+// colors:
+
+$color-white:#fff;
+$color-gray:#c3cfe2;
+$color-testimonanial-footer:#686de0;
+$border-gray: gray;
+$easin-dark-blue:rgb(11, 11, 117);
+
+//spacing: 
+
+$padding-testimonial-header: 40px 40px 80px;
+$border-radius:20px;
+$standard-margin:10px;
+
+// text
+
+$standard-fontsize:20px;
+$standard-line-height:1.5em;
+
+// buttons
+
+$standard-heigt:30px;
+
+// effects:
+
+$border-shadow_testimonial: 4px 2px 4px $border-gray;
+$opacity: .5;
+$transistion:visibility 1s ease-in-out,opacity 1s ease-in-out;
+
+// mixins: 
+
+@mixin flex-center($flex-direction:column){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:$flex-direction;
+}
+@mixin dimension__testimonial {
+    width:340px;
+    height: 500px;
+}
+@mixin dimension__testimonial__header {
+    height: 300px; 
+}
+@mixin dimension__testimonial__footer {
+    height:200px;
+    width: 100%;
+}
